@@ -1,0 +1,23 @@
+{
+  "name": "solid_principles_in_typescript",
+  "version": "1.0.0",
+  "description": "Exploring SOLID principles in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SOLID principles",
+    "TypeScript"
+  ],
+  "author": "David C",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/node": "^12.0.0"
+  }
+}
